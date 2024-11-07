@@ -26,7 +26,8 @@ WITH top_paying_jobs AS (
 )
 
 SELECT 
-    top_paying_jobs.*,
+    top_paying_jobs.job_title,
+    top_paying_jobs.company_name,
     skills
 FROM 
     top_paying_jobs
