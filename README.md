@@ -8,11 +8,11 @@
 <a href="#section2">Data Structure</a> <br />
 <a href="#section3">Queries and Analysis</a>
 <ul>
-        <a href="#section4"><li> Top Paying Jobs </li></a>
-        <a href="#section5"><li> Skills for Top-Paying Jobs </li></a>
-        <a href="#section6"><li> Most In-Demand Skills </li></a>
-        <a href="#section7"><li> Highest Paying Skills </li></a>
-        <a href="#section8"><li> Optimal Skills for Career Growth </li></a>
+        <li><a href="#section4">Top Paying Jobs </li></a>
+        <li><a href="#section5">Skills for Top-Paying Jobs </li></a>
+        <li><a href="#section6">Most In-Demand Skills </li></a>
+        <li><a href="#section7">Highest Paying Skills </li></a>
+        <li><a href="#section8">Optimal Skills for Career Growth </li></a>
 </ul>
 <div class="section 1" id="section1">
 <h2>Project Overview</h2>
