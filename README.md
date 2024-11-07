@@ -94,7 +94,7 @@ This project uses a star schema with the following tables:
 </table>
 📊 Graph:
 <div class="image-wrapper">
-
+![image](https://github.com/user-attachments/assets/b1386dc1-9c29-42e0-8cfc-5d48fddd8166)
 </div>
 </div>
 3. Most In-Demand Skills
