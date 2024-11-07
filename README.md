@@ -93,9 +93,7 @@ This project uses a star schema with the following tables:
   </tr>  
 </table>
 📊 Graph:
-<div class="image-wrapper">
-![image](https://github.com/kokitko/SQL_Project_Data_Job_Analysis/blob/dd9cb6c687b4cf68a85c8380070aeb76cf4ef4a4/image.png)
-</div>
+![image alt](https://github.com/kokitko/SQL_Project_Data_Job_Analysis/blob/main/image.png?raw=true)
 </div>
 3. Most In-Demand Skills
 Script: 3_top_demanded_skills.sql
