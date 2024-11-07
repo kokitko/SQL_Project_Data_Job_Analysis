@@ -14,10 +14,6 @@
         <a href="#section7"><li> Highest Paying Skills </li></a>
         <a href="#section8"><li> Optimal Skills for Career Growth </li></a>
 </ul>
-<a>Database Setup and Data Loading</a> <br />
-<a>Visualizations</a> <br />
-<a>Next Steps</a> <br />
-<a>Contributing</a> <br />
 <div class="section 1" id="section1">
 <h2>Project Overview</h2>
 This project aims to answer the following questions about software engineering jobs:
@@ -81,100 +77,90 @@ This project uses a star schema with the following tables:
     <th><b>Company</b></th>
     <th><b>Skill</b></th>
   </tr>
+    <tr>
+      <th>Senior Software Engineer</th>
+      <th>XYZ corp.</th>  
+      <th>Python</th>
+    </tr>      
+    <tr>
+      <th>Data Engineer</th>
+      <th>ABC Inc</th>  
+      <th>SQL</th>
+    </tr>  
+</table>
+</div>
+<div class="section 6" id="section6">
+<h3>3. Most In-Demand Skills</h3>
+  <ul>
+    <li><b>Script</b>: 3_top_demanded_skills.sql
+    <li><b>Objective</b>: Ranks the top 5 most in-demand skills across all software engineering roles.
+    <li><b>Output</b>: Displays skills and their demand count based on job postings.
+  </ul>
+<h5>Example Output</h5>
+  <table>
+    <tr>
+      <th><b>Skill</b></th>
+      <th><b>Average Salary</b></th>   
+    </tr>
+    <tr>
+      <th>Cassandra</th>
+      <th><i>Salary</i></th>  
+    </tr>      
+    <tr>
+      <th>DynamoDB</th>
+      <th><i>Salary</i></th>  
+    </tr>      
+</table>
+</div>
+<div class="section 7" id="section7"> 
+<h3>4. Highest Paying Skills</h3>
+  <ul>
+    <li><b>Script</b>: 4_top_paying_skills.sql</li>
+    <li><b>Objective</b>: Highlights skills associated with the highest average salaries.</li>
+    <li><b>Output</b>: Lists skills and their average associated salaries.</li>
+  </ul>
+<h5>Example Output</h5>
+  <table>
   <tr>
-    <th>Senior Software Engineer</th>
-    <th>XYZ corp.</th>  
-    <th>Python</th>
+    <th><b>Skill</b></th>
+    <th><b>Demand Count</b></th>   
+  </tr>
+  <tr>
+    <th>SQL</th>
+    <th><i>Count</i></th>  
   </tr>      
   <tr>
-    <th>Data Engineer</th>
-    <th>ABC Inc</th>  
-    <th>SQL</th>
-  </tr>  
+    <th>Python</th>
+    <th><i>Count</i></th>  
+  </tr>      
 </table>
-📊 Graph:
-![image alt](https://github.com/kokitko/SQL_Project_Data_Job_Analysis/blob/main/image.png?raw=true)
 </div>
-3. Most In-Demand Skills
-Script: 3_top_demanded_skills.sql
-Objective: Ranks the top 5 most in-demand skills across all software engineering roles.
-Output: Displays skills and their demand count based on job postings.
-Example Output
-Skill	Demand Count
-Python	
-𝐶
-𝑜
-𝑢
-𝑛
-𝑡
-Count
-SQL	
-𝐶
-𝑜
-𝑢
-𝑛
-𝑡
-Count
-📊 Graph Suggestion:
-Bar chart: Show demand counts for the top 5 most requested skills.
-4. Highest Paying Skills
-Script: 4_top_paying_skills.sql
-Objective: Highlights skills associated with the highest average salaries.
-Output: Lists skills and their average associated salaries.
-Example Output
-Skill	Average Salary
-Cassandra	
-𝑆
-𝑎
-𝑙
-𝑎
-𝑟
-𝑦
-Salary
-DynamoDB	
-𝑆
-𝑎
-𝑙
-𝑎
-𝑟
-𝑦
-Salary
-📊 Graph Suggestion:
-Horizontal bar chart: Ranks the top 10 skills by average salary.
-5. Optimal Skills for Career Growth
-Script: 5_optimal_skills.sql
-Objective: Finds skills with both high demand and high average salaries, offering insights into the best skills for job security and financial growth.
-Output: Displays skills, demand counts, and average salaries.
-Example Output
-Skill	Demand Count	Average Salary
-Python	
-𝐶
-𝑜
-𝑢
-𝑛
-𝑡
-Count	
-𝑆
-𝑎
-𝑙
-𝑎
-𝑟
-𝑦
-Salary
-SQL	
-𝐶
-𝑜
-𝑢
-𝑛
-𝑡
-Count	
-𝑆
-𝑎
-𝑙
-𝑎
-𝑟
-𝑦
-Salary
-📊 Graph Suggestion:
-Bubble chart: Show demand count vs. average salary for each skill, with bubble size representing demand.
+<div class="section 8" id="section8"> 
+<h3>5. Optimal Skills for Career Growth</h3>
+  <ul>
+    <li><b>Script</b>: 5_optimal_skills.sql</li>
+    <li><b>Objective</b>: Finds skills with both high demand and high average salaries, offering insights into the best skills for job security and       financial growth.</li>
+    <li><b>Output</b>: Displays skills, demand counts, and average salaries.</li>
+  </ul>
+<h5>Example Output</h5>
+  <table>
+    <tr>
+      <th><b>Skill ID</b></th>
+      <th><b>Skill</b></th>
+      <th><b>Demand Count</b></th>
+      <th><b>Average Salary</b></th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <th>Python</th>
+      <th><i>Count</i></th>  
+      <th><i>Salary</i></th>     
+    </tr> 
+    <tr>
+      <th>2</th>
+      <th>SQL</th>
+      <th><i>Count</i></th>  
+      <th><i>Salary</i></th>     
+    </tr>      
+  </table>
 </div>
