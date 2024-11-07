@@ -100,7 +100,7 @@ This project uses a star schema with the following tables:
   <table>
     <tr>
       <th><b>Skill</b></th>
-      <th><b>Average Salary</b></th>   
+      <th><b>Demand Count</b></th>   
     </tr>
     <tr>
       <th>Cassandra</th>
