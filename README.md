@@ -104,11 +104,11 @@ This project uses a star schema with the following tables:
     </tr>
     <tr>
       <th>Cassandra</th>
-      <th><i>Salary</i></th>  
+      <th><i>Count</i></th>  
     </tr>      
     <tr>
       <th>DynamoDB</th>
-      <th><i>Salary</i></th>  
+      <th><i>Count</i></th>  
     </tr>      
 </table>
 </div>
