@@ -103,11 +103,11 @@ This project uses a star schema with the following tables:
       <th><b>Demand Count</b></th>   
     </tr>
     <tr>
-      <th>Cassandra</th>
+      <th>Python</th>
       <th><i>Count</i></th>  
     </tr>      
     <tr>
-      <th>DynamoDB</th>
+      <th>SQL</th>
       <th><i>Count</i></th>  
     </tr>      
 </table>
@@ -123,15 +123,15 @@ This project uses a star schema with the following tables:
   <table>
   <tr>
     <th><b>Skill</b></th>
-    <th><b>Demand Count</b></th>   
+    <th><b>Average Salary</b></th>   
   </tr>
   <tr>
-    <th>SQL</th>
-    <th><i>Count</i></th>  
+    <th>Cassandra</th>
+    <th><i>Salary</i></th>  
   </tr>      
   <tr>
-    <th>Python</th>
-    <th><i>Count</i></th>  
+    <th>DynamoDB</th>
+    <th><i>Salary</i></th>  
   </tr>      
 </table>
 </div>
